@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <head>
-
+    <title>Google</title>
 </head>
 <body>
-    <nav>
+    <nav id="nav-box">
         <div id="left-nav">
-            <ul>
-                <li>About</li>
-                <li>Store</li>
+            <ul class="nav-list">
+                <li class="nav-link"><a href="#">About</a></li>
+                <li class="nav-link"><a href="#">Store</a></li>
             </ul>
         </div>
         <div id="right-nav">
-            <ul>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li>g-apps</li>
-                <li>profile</li>
+            <ul class="nav-list">
+                <li class="nav-link"><a href="#">Gmail</a></li>
+                <li class="nav-link"><a href="#">Images</a></li>
+                <li id="google-apps-button"><a href="#">g-apps</a></li>
+                <li id="profile-button"><a href="#">profile</a></li>
             </ul>
         </div>
     </nav>
     <main id="main-box">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
         <form action="#">
-            <input type="search">
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm Feeling Lucky">
+            <input type="search" id="search-box">
+            <input type="submit" value="Google Search" class="submit-button">
+            <input type="submit" value="I'm Feeling Lucky" class="submit-button">
         </form>
     </main>
     <footer id="footer-box">
         <div id="left-footer">
-            <ul>
-                <li>Advertising</li>
-                <li>Business</li>
-                <li>How Search Works</li>
+            <ul class="footer-list">
+                <li class="footer-link"><a href="#">Advertising</a></li>
+                <li class="footer-link"><a href="#">Business</a></li>
+                <li class="footer-link"><a href="#">How Search Works</a></li>
             </ul>
         </div>
         <div id="right-footer">
-            <ul>
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Settings</li>
+            <ul class="footer-list">
+                <li class="footer-link"><a href="#">Privacy</a></li>
+                <li class="footer-link"><a href="#">Terms</a></li>
+                <li class="footer-link"><a href="#">Settings</a></li>
             </ul>
         </div>
     </footer>
