@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <head>
     <title>Google</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <nav id="nav-box">
         <div id="left-nav">
             <ul class="nav-list">
-                <li class="nav-link"><a href="#">About</a></li>
-                <li class="nav-link"><a href="#">Store</a></li>
+                <li><a href="#" class="nav-link">About</a></li>
+                <li><a href="#" class="nav-link">Store</a></li>
             </ul>
         </div>
         <div id="right-nav">
             <ul class="nav-list">
-                <li class="nav-link"><a href="#">Gmail</a></li>
-                <li class="nav-link"><a href="#">Images</a></li>
-                <li id="google-apps-button"><a href="#">g-apps</a></li>
-                <li id="profile-button"><a href="#">profile</a></li>
+                <li><a href="#" class="nav-link">Gmail</a></li>
+                <li><a href="#" class="nav-link">Images</a></li>
+                <li id="google-apps-button"><a href="#" id="google-apps-link" class="material-icons">apps</a></li>
+                <li id="profile-button-box">
+                    <a href="https://github.com/SmallCodings">
+                        <form action="#">
+                            <input type="button" value="Sign In" id="profile-button">
+                        </form>
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
     <main id="main-box">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo" id="google-logo">
-        <form action="#">
-            <input type="search" id="search-box">
-            <input type="submit" value="Google Search" class="submit-button">
-            <input type="submit" value="I'm Feeling Lucky" class="submit-button">
+        <form action="#" id="search-box">
+            <input type="search" id="search-bar">
+            <div id="submit-button-box">
+                <input type="submit" value="Google Search" class="submit-button">
+                <input type="submit" value="I'm Feeling Lucky" class="submit-button">
+            </div>
         </form>
     </main>
     <footer id="footer-box">
         <div id="left-footer">
             <ul class="footer-list">
-                <li class="footer-link"><a href="#">Advertising</a></li>
-                <li class="footer-link"><a href="#">Business</a></li>
-                <li class="footer-link"><a href="#">How Search Works</a></li>
+                <li><a href="#" class="footer-link">Advertising</a></li>
+                <li><a href="#" class="footer-link">Business</a></li>
+                <li><a href="#" class="footer-link">How Search Works</a></li>
             </ul>
         </div>
         <div id="right-footer">
             <ul class="footer-list">
-                <li class="footer-link"><a href="#">Privacy</a></li>
-                <li class="footer-link"><a href="#">Terms</a></li>
-                <li class="footer-link"><a href="#">Settings</a></li>
+                <li><a href="#" class="footer-link">Privacy</a></li>
+                <li><a href="#" class="footer-link">Terms</a></li>
+                <li><a href="#" class="footer-link">Settings</a></li>
             </ul>
         </div>
     </footer>
 </body>
+

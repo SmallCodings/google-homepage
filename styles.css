@@ -1,0 +1,169 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#footer-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    padding: 1.3em 2em 1.1em 1.5em;
+    background-color: rgb(230, 230, 230);
+    font-size: 14px;
+    border-top: 1px solid rgb(187, 187, 187);
+}
+
+.footer-link {
+    text-decoration: none;
+    padding: 0 1em;
+    color: rgb(87, 87, 87);
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-list li {
+    display: inline;
+}
+
+#google-apps-button {
+    margin: 0 1.6em 0 0.5em;
+    display: flex;
+}
+
+#google-apps-link {
+    text-decoration: none;
+    color: rgb(145, 145, 145);
+}
+
+#google-apps-link:hover {
+    color:rgb(24, 24, 24)
+}
+
+#google-logo {
+    margin: auto;
+}
+
+#left-nav .nav-link {
+    color:rgb(129, 129, 129);
+    padding: 0 1em;
+}
+
+#main-box {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#nav-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    font-size: 13px;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+#profile-button {
+    padding: 6px 12px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    background-color: #4285f4;
+    color: white;
+    outline: none;
+}
+
+#profile-button:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px rgb(151, 151, 151);
+}
+
+#profile-button:active {
+    background-color: #265fbb;
+}
+
+#profile-button-box {
+    margin-right: 1em;
+}
+
+
+#right-nav .nav-link {
+    color: rgb(51, 51, 51);
+    margin-right: 1em;
+}
+
+#right-nav .nav-list {
+    display: flex;
+    align-items: center;
+}
+
+#search-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5em;
+}
+
+#search-bar {
+    margin: 0 auto;
+    border-radius: 24px;
+    height: 44px;
+    width: 582px;
+    border: 1px solid rgb(204, 204, 204);
+    outline: none;
+}
+
+.submit-button {
+    border: 1px solid rgb(245, 245, 245) ;
+    font-size: 14px;
+    padding: 10px 18px;
+    margin: 0px 4px;
+    background-color: rgb(245, 245, 245);
+    color:rgb(77, 77, 77);
+    outline: none;
+    border-radius: 3px;
+}
+
+.submit-button:hover {
+    border: 1px solid rgb(211, 211, 211);
+    box-shadow: 0px 1px rgb(211, 211, 211);
+}
+
+.submit-button:active {
+    border: 1px solid rgb(88, 90, 228);
+}
+
+#submit-button-box {
+    margin: auto;
+    padding-top: 2em;
+}
